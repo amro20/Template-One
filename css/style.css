@@ -40,7 +40,7 @@ header {
 header .container {
   display: flex;
   flex-direction: column;
-  gap: 50px;
+  gap: 31px;
 }
 header .container nav {
   display: flex;
@@ -176,7 +176,6 @@ header .container .main-intro form [type="submit"] {
   }
 }
 .main-heading {
-  padding: 50px 0;
   position: relative;
   background-image: linear-gradient(to top, #dcdcdc, #edebec);
 }
@@ -246,4 +245,14 @@ header .container .main-intro form [type="submit"] {
   }
 }
 
-
+.test{
+  display: flex;
+  justify-content: center;
+}
+.test ol li::marker{
+  font-size: 20px;
+  color: rebeccapurple;
+  display: block;
+  padding: 5px;
+  background-color: red;
+}
